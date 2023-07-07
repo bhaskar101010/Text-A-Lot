@@ -21,6 +21,11 @@ please open an issue first to discuss what you would like to change.
 
 ```
 
+### Few Screenshots
+
+![Homepage](/screenshots/1.png "Homepage")
+![Chatpage](/screenshots/2.png "Chatpage")
+![Groupchat](/screenshots/3.png "Groupchat")
 
 ## Features
 
@@ -59,6 +64,10 @@ please open an issue first to discuss what you would like to change.
 
 MongoDB, Express, React, Node, Socket.IO, Chakra-UI
 
+## Hosted/Deployed
+
+https://textalot.herokuapp.com/
+
 
 ## Usage
 
@@ -66,13 +75,13 @@ MongoDB, Express, React, Node, Socket.IO, Chakra-UI
 
 | Email | Password  |
 | -------- | --------- |
-|  |  |
+| kohli@test.com | kohlitest |
 
 ``` Or Use the guest user login feature.  ```
 
 ### Clone the repository:
 ```
-
+git clone https://github.com/SiddharthSsb11/MERN-chat-app.git
 ```
 
 ### Env Variables
@@ -104,5 +113,15 @@ npm start
 # Run backend only
 npm start
 ```
+
+## Build & Deploy
+
+```
+# Create frontend production build
+cd frontend
+npm run build
+```
+
+There is a Heroku postbuild script, so if you push to Heroku, no need to build manually for deployment to Heroku
 
 
